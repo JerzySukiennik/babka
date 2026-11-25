@@ -1,0 +1,1507 @@
+{
+ "theme": null,
+ "format": "mp3",
+ "formats": [
+  "mp3"
+ ],
+ "sounds": [
+  {
+   "name": "bowl_land_1",
+   "file": "bowl_land_1.mp3",
+   "files": [
+    "bowl_land_1.mp3"
+   ],
+   "sound": "pot/clang",
+   "dur_s": 1.519,
+   "lufs_max": -15.1,
+   "loop": false,
+   "ok": true,
+   "pitch": "G5 +34c",
+   "member": {
+    "n": 1,
+    "of": 3,
+    "recording": "recording 1 of 3"
+   }
+  },
+  {
+   "name": "bowl_land_2",
+   "file": "bowl_land_2.mp3",
+   "files": [
+    "bowl_land_2.mp3"
+   ],
+   "sound": "pot/clang",
+   "dur_s": 0.983,
+   "lufs_max": -15.3,
+   "loop": false,
+   "ok": true,
+   "pitch": "G5 +34c",
+   "member": {
+    "n": 2,
+    "of": 3,
+    "recording": "recording 2 of 3"
+   }
+  },
+  {
+   "name": "bowl_land_3",
+   "file": "bowl_land_3.mp3",
+   "files": [
+    "bowl_land_3.mp3"
+   ],
+   "sound": "pot/clang",
+   "dur_s": 0.956,
+   "lufs_max": -15.7,
+   "loop": false,
+   "ok": true,
+   "pitch": "G5 +34c",
+   "member": {
+    "n": 3,
+    "of": 3,
+    "recording": "recording 3 of 3"
+   }
+  },
+  {
+   "name": "bowl_swoop_1",
+   "file": "bowl_swoop_1.mp3",
+   "files": [
+    "bowl_swoop_1.mp3"
+   ],
+   "sound": "whoosh/heavy",
+   "dur_s": 1.091,
+   "lufs_max": -20.1,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "bowl_swoop_2",
+   "file": "bowl_swoop_2.mp3",
+   "files": [
+    "bowl_swoop_2.mp3"
+   ],
+   "sound": "whoosh/heavy",
+   "dur_s": 1.086,
+   "lufs_max": -20.1,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "swish_1",
+   "file": "swish_1.mp3",
+   "files": [
+    "swish_1.mp3"
+   ],
+   "sound": "swish/fast",
+   "dur_s": 0.783,
+   "lufs_max": -15.8,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 4,
+    "of": 4,
+    "recording": "recording 4 of 4"
+   }
+  },
+  {
+   "name": "swish_2",
+   "file": "swish_2.mp3",
+   "files": [
+    "swish_2.mp3"
+   ],
+   "sound": "swish/fast",
+   "dur_s": 0.409,
+   "lufs_max": -21.5,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 3,
+    "of": 4,
+    "recording": "recording 3 of 4"
+   }
+  },
+  {
+   "name": "swish_3",
+   "file": "swish_3.mp3",
+   "files": [
+    "swish_3.mp3"
+   ],
+   "sound": "swish/fast",
+   "dur_s": 0.309,
+   "lufs_max": -22.4,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 4,
+    "recording": "recording 1 of 4"
+   }
+  },
+  {
+   "name": "swish_4",
+   "file": "swish_4.mp3",
+   "files": [
+    "swish_4.mp3"
+   ],
+   "sound": "swish/fast",
+   "dur_s": 0.318,
+   "lufs_max": -22.7,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 4,
+    "recording": "recording 2 of 4"
+   }
+  },
+  {
+   "name": "egg_crack_1",
+   "file": "egg_crack_1.mp3",
+   "files": [
+    "egg_crack_1.mp3"
+   ],
+   "sound": "egg/crack",
+   "dur_s": 0.866,
+   "lufs_max": -15.1,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "egg_crack_2",
+   "file": "egg_crack_2.mp3",
+   "files": [
+    "egg_crack_2.mp3"
+   ],
+   "sound": "egg/crack",
+   "dur_s": 1.523,
+   "lufs_max": -21.5,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "egg_crack_3",
+   "file": "egg_crack_3.mp3",
+   "files": [
+    "egg_crack_3.mp3"
+   ],
+   "sound": "egg/crack",
+   "dur_s": 0.87,
+   "lufs_max": -15.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "egg_crack_4",
+   "file": "egg_crack_4.mp3",
+   "files": [
+    "egg_crack_4.mp3"
+   ],
+   "sound": "egg/crack",
+   "dur_s": 1.488,
+   "lufs_max": -21.6,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "egg_crack_5",
+   "file": "egg_crack_5.mp3",
+   "files": [
+    "egg_crack_5.mp3"
+   ],
+   "sound": "egg/crack",
+   "dur_s": 0.865,
+   "lufs_max": -15.1,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "egg_crack_6",
+   "file": "egg_crack_6.mp3",
+   "files": [
+    "egg_crack_6.mp3"
+   ],
+   "sound": "egg/crack",
+   "dur_s": 1.512,
+   "lufs_max": -22.5,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "egg_crack_7",
+   "file": "egg_crack_7.mp3",
+   "files": [
+    "egg_crack_7.mp3"
+   ],
+   "sound": "egg/crack",
+   "dur_s": 0.877,
+   "lufs_max": -15.1,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "egg_crack_8",
+   "file": "egg_crack_8.mp3",
+   "files": [
+    "egg_crack_8.mp3"
+   ],
+   "sound": "egg/crack",
+   "dur_s": 1.512,
+   "lufs_max": -22.9,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "plop_1",
+   "file": "plop_1.mp3",
+   "files": [
+    "plop_1.mp3"
+   ],
+   "sound": "splash/plunge",
+   "dur_s": 0.571,
+   "lufs_max": -17.6,
+   "loop": false,
+   "ok": false,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "plop_2",
+   "file": "plop_2.mp3",
+   "files": [
+    "plop_2.mp3"
+   ],
+   "sound": "splash/plunge",
+   "dur_s": 0.69,
+   "lufs_max": -17.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "plop_3",
+   "file": "plop_3.mp3",
+   "files": [
+    "plop_3.mp3"
+   ],
+   "sound": "splash/plunge",
+   "dur_s": 0.571,
+   "lufs_max": -17.2,
+   "loop": false,
+   "ok": false,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "plop_4",
+   "file": "plop_4.mp3",
+   "files": [
+    "plop_4.mp3"
+   ],
+   "sound": "splash/plunge",
+   "dur_s": 0.69,
+   "lufs_max": -17.1,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "shell",
+   "file": "shell.mp3",
+   "files": [
+    "shell.mp3"
+   ],
+   "sound": "recipe/shell",
+   "dur_s": 0.821,
+   "lufs_max": -16.1,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "whisk_1",
+   "file": "whisk_1.mp3",
+   "files": [
+    "whisk_1.mp3"
+   ],
+   "sound": "whisk/beat",
+   "dur_s": 3.849,
+   "lufs_max": -17.7,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "whisk_2",
+   "file": "whisk_2.mp3",
+   "files": [
+    "whisk_2.mp3"
+   ],
+   "sound": "whisk/beat",
+   "dur_s": 1.617,
+   "lufs_max": -15.8,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "ceramic_set_1",
+   "file": "ceramic_set_1.mp3",
+   "files": [
+    "ceramic_set_1.mp3"
+   ],
+   "sound": "plate/set",
+   "dur_s": 0.709,
+   "lufs_max": -16.6,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "ceramic_set_2",
+   "file": "ceramic_set_2.mp3",
+   "files": [
+    "ceramic_set_2.mp3"
+   ],
+   "sound": "plate/set",
+   "dur_s": 0.692,
+   "lufs_max": -17.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "pour_thick",
+   "file": "pour_thick.mp3",
+   "files": [
+    "pour_thick.mp3"
+   ],
+   "sound": "recipe/pour_thick",
+   "dur_s": 7.588,
+   "lufs_max": -19.0,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "pan_set",
+   "file": "pan_set.mp3",
+   "files": [
+    "pan_set.mp3"
+   ],
+   "sound": "recipe/pan_set",
+   "dur_s": 1.662,
+   "lufs_max": -14.8,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "sprinkles",
+   "file": "sprinkles.mp3",
+   "files": [
+    "sprinkles.mp3"
+   ],
+   "sound": "rain/leaves",
+   "dur_s": 2.19,
+   "lufs_max": -30.0,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "oven_open",
+   "file": "oven_open.mp3",
+   "files": [
+    "oven_open.mp3"
+   ],
+   "sound": "recipe/oven_open",
+   "dur_s": 1.298,
+   "lufs_max": -20.0,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "oven_close",
+   "file": "oven_close.mp3",
+   "files": [
+    "oven_close.mp3"
+   ],
+   "sound": "recipe/oven_close",
+   "dur_s": 0.989,
+   "lufs_max": -21.1,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "oven_hum",
+   "file": "oven_hum.mp3",
+   "files": [
+    "oven_hum.mp3"
+   ],
+   "sound": "microwave/run",
+   "dur_s": 5.964,
+   "lufs_max": -21.5,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "oven_click",
+   "file": "oven_click.mp3",
+   "files": [
+    "oven_click.mp3"
+   ],
+   "sound": "switch/heater",
+   "dur_s": 0.568,
+   "lufs_max": -17.7,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "knife_saw_1",
+   "file": "knife_saw_1.mp3",
+   "files": [
+    "knife_saw_1.mp3"
+   ],
+   "sound": "knife/slice",
+   "dur_s": 0.612,
+   "lufs_max": -15.9,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "knife_saw_2",
+   "file": "knife_saw_2.mp3",
+   "files": [
+    "knife_saw_2.mp3"
+   ],
+   "sound": "knife/slice",
+   "dur_s": 0.61,
+   "lufs_max": -16.1,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "knife_saw_3",
+   "file": "knife_saw_3.mp3",
+   "files": [
+    "knife_saw_3.mp3"
+   ],
+   "sound": "knife/slice",
+   "dur_s": 0.606,
+   "lufs_max": -15.9,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "knife_saw_4",
+   "file": "knife_saw_4.mp3",
+   "files": [
+    "knife_saw_4.mp3"
+   ],
+   "sound": "knife/slice",
+   "dur_s": 0.612,
+   "lufs_max": -15.9,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "knife_through",
+   "file": "knife_through.mp3",
+   "files": [
+    "knife_through.mp3"
+   ],
+   "sound": "sword/cut",
+   "dur_s": 0.775,
+   "lufs_max": -17.8,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "tear",
+   "file": "tear.mp3",
+   "files": [
+    "tear.mp3"
+   ],
+   "sound": "recipe/tear",
+   "dur_s": 1.56,
+   "lufs_max": -17.3,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "squelch_1",
+   "file": "squelch_1.mp3",
+   "files": [
+    "squelch_1.mp3"
+   ],
+   "sound": "step/mud",
+   "dur_s": 0.79,
+   "lufs_max": -14.6,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 4,
+    "recording": "recording 2 of 4"
+   }
+  },
+  {
+   "name": "squelch_2",
+   "file": "squelch_2.mp3",
+   "files": [
+    "squelch_2.mp3"
+   ],
+   "sound": "step/mud",
+   "dur_s": 0.834,
+   "lufs_max": -16.7,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 3,
+    "of": 4,
+    "recording": "recording 3 of 4"
+   }
+  },
+  {
+   "name": "squelch_3",
+   "file": "squelch_3.mp3",
+   "files": [
+    "squelch_3.mp3"
+   ],
+   "sound": "step/mud",
+   "dur_s": 0.933,
+   "lufs_max": -17.2,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 4,
+    "of": 4,
+    "recording": "recording 4 of 4"
+   }
+  },
+  {
+   "name": "glitch_1",
+   "file": "glitch_1.mp3",
+   "files": [
+    "glitch_1.mp3"
+   ],
+   "sound": "glitch/short",
+   "dur_s": 0.315,
+   "lufs_max": -20.1,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "glitch_2",
+   "file": "glitch_2.mp3",
+   "files": [
+    "glitch_2.mp3"
+   ],
+   "sound": "glitch/short",
+   "dur_s": 0.312,
+   "lufs_max": -19.6,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "glitch_3",
+   "file": "glitch_3.mp3",
+   "files": [
+    "glitch_3.mp3"
+   ],
+   "sound": "glitch/short",
+   "dur_s": 0.334,
+   "lufs_max": -20.2,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "glitch_4",
+   "file": "glitch_4.mp3",
+   "files": [
+    "glitch_4.mp3"
+   ],
+   "sound": "glitch/short",
+   "dur_s": 0.321,
+   "lufs_max": -19.9,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "ba_1",
+   "file": "ba_1.mp3",
+   "files": [
+    "ba_1.mp3"
+   ],
+   "sound": "pop/mouth",
+   "dur_s": 0.605,
+   "lufs_max": -20.6,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 3,
+    "recording": "recording 2 of 3"
+   }
+  },
+  {
+   "name": "ba_2",
+   "file": "ba_2.mp3",
+   "files": [
+    "ba_2.mp3"
+   ],
+   "sound": "pop/mouth",
+   "dur_s": 0.638,
+   "lufs_max": -21.5,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 3,
+    "recording": "recording 1 of 3"
+   }
+  },
+  {
+   "name": "ba_3",
+   "file": "ba_3.mp3",
+   "files": [
+    "ba_3.mp3"
+   ],
+   "sound": "pop/mouth",
+   "dur_s": 0.663,
+   "lufs_max": -19.2,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 3,
+    "of": 3,
+    "recording": "recording 3 of 3"
+   }
+  },
+  {
+   "name": "ba_4",
+   "file": "ba_4.mp3",
+   "files": [
+    "ba_4.mp3"
+   ],
+   "sound": "pop/mouth",
+   "dur_s": 0.595,
+   "lufs_max": -20.6,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 3,
+    "recording": "recording 2 of 3"
+   }
+  },
+  {
+   "name": "ba_5",
+   "file": "ba_5.mp3",
+   "files": [
+    "ba_5.mp3"
+   ],
+   "sound": "pop/mouth",
+   "dur_s": 0.635,
+   "lufs_max": -21.5,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 3,
+    "recording": "recording 1 of 3"
+   }
+  },
+  {
+   "name": "ba_6",
+   "file": "ba_6.mp3",
+   "files": [
+    "ba_6.mp3"
+   ],
+   "sound": "pop/mouth",
+   "dur_s": 0.675,
+   "lufs_max": -19.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 3,
+    "of": 3,
+    "recording": "recording 3 of 3"
+   }
+  },
+  {
+   "name": "logo",
+   "file": "logo.mp3",
+   "files": [
+    "logo.mp3"
+   ],
+   "sound": "logo/bag",
+   "dur_s": 0.501,
+   "lufs_max": -21.2,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "tick_1",
+   "file": "tick_1.mp3",
+   "files": [
+    "tick_1.mp3"
+   ],
+   "sound": "tick/key",
+   "dur_s": 0.07,
+   "lufs_max": -20.2,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "tick_2",
+   "file": "tick_2.mp3",
+   "files": [
+    "tick_2.mp3"
+   ],
+   "sound": "tick/key",
+   "dur_s": 0.054,
+   "lufs_max": -22.2,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "rise",
+   "file": "rise.mp3",
+   "files": [
+    "rise.mp3"
+   ],
+   "sound": "rise/reverse",
+   "dur_s": 1.381,
+   "lufs_max": -14.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 4,
+    "recording": "recording 1 of 4"
+   }
+  },
+  {
+   "name": "pipe_1",
+   "file": "pipe_1.mp3",
+   "files": [
+    "pipe_1.mp3"
+   ],
+   "sound": "metal/drop",
+   "dur_s": 1.046,
+   "lufs_max": -17.2,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "pipe_2",
+   "file": "pipe_2.mp3",
+   "files": [
+    "pipe_2.mp3"
+   ],
+   "sound": "metal/drop",
+   "dur_s": 1.034,
+   "lufs_max": -17.7,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "boom",
+   "file": "boom.mp3",
+   "files": [
+    "boom.mp3"
+   ],
+   "sound": "recipe/boom",
+   "dur_s": 2.119,
+   "lufs_max": -18.6,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "err_buzz_1",
+   "file": "err_buzz_1.mp3",
+   "files": [
+    "err_buzz_1.mp3"
+   ],
+   "sound": "ui/error_buzz",
+   "dur_s": 0.471,
+   "lufs_max": -19.1,
+   "loop": false,
+   "ok": true,
+   "pitch": "D3"
+  },
+  {
+   "name": "err_buzz_2",
+   "file": "err_buzz_2.mp3",
+   "files": [
+    "err_buzz_2.mp3"
+   ],
+   "sound": "ui/error_buzz",
+   "dur_s": 0.489,
+   "lufs_max": -19.3,
+   "loop": false,
+   "ok": true,
+   "pitch": "D3"
+  },
+  {
+   "name": "err_deny_1",
+   "file": "err_deny_1.mp3",
+   "files": [
+    "err_deny_1.mp3"
+   ],
+   "sound": "buzzer/deny",
+   "dur_s": 0.368,
+   "lufs_max": -16.3,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "err_deny_2",
+   "file": "err_deny_2.mp3",
+   "files": [
+    "err_deny_2.mp3"
+   ],
+   "sound": "buzzer/deny",
+   "dur_s": 0.371,
+   "lufs_max": -16.3,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "err_fall",
+   "file": "err_fall.mp3",
+   "files": [
+    "err_fall.mp3"
+   ],
+   "sound": "error/fall",
+   "dur_s": 0.523,
+   "lufs_max": -16.4,
+   "loop": false,
+   "ok": true,
+   "pitch": "A3"
+  },
+  {
+   "name": "alarm8",
+   "file": "alarm8.mp3",
+   "files": [
+    "alarm8.mp3"
+   ],
+   "sound": "alarm/chip",
+   "dur_s": 1.517,
+   "lufs_max": -14.0,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "scratch_1",
+   "file": "scratch_1.mp3",
+   "files": [
+    "scratch_1.mp3"
+   ],
+   "sound": "record/scratch",
+   "dur_s": 1.046,
+   "lufs_max": -18.2,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "scratch_2",
+   "file": "scratch_2.mp3",
+   "files": [
+    "scratch_2.mp3"
+   ],
+   "sound": "record/scratch",
+   "dur_s": 0.594,
+   "lufs_max": -15.7,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "scratch_3",
+   "file": "scratch_3.mp3",
+   "files": [
+    "scratch_3.mp3"
+   ],
+   "sound": "record/scratch",
+   "dur_s": 1.04,
+   "lufs_max": -17.9,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "horn",
+   "file": "horn.mp3",
+   "files": [
+    "horn.mp3"
+   ],
+   "sound": "recipe/horn",
+   "dur_s": 0.943,
+   "lufs_max": -14.0,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "laugh_1",
+   "file": "laugh_1.mp3",
+   "files": [
+    "laugh_1.mp3"
+   ],
+   "sound": "laugh/crowd",
+   "dur_s": 2.557,
+   "lufs_max": -16.6,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "laugh_2",
+   "file": "laugh_2.mp3",
+   "files": [
+    "laugh_2.mp3"
+   ],
+   "sound": "laugh/crowd",
+   "dur_s": 2.594,
+   "lufs_max": -16.3,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "laugh1",
+   "file": "laugh1.mp3",
+   "files": [
+    "laugh1.mp3"
+   ],
+   "sound": "laugh/person",
+   "dur_s": 1.833,
+   "lufs_max": -15.8,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "gasp_1",
+   "file": "gasp_1.mp3",
+   "files": [
+    "gasp_1.mp3"
+   ],
+   "sound": "gasp/breath",
+   "dur_s": 0.716,
+   "lufs_max": -17.6,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 3,
+    "recording": "recording 1 of 3"
+   }
+  },
+  {
+   "name": "gasp_2",
+   "file": "gasp_2.mp3",
+   "files": [
+    "gasp_2.mp3"
+   ],
+   "sound": "gasp/breath",
+   "dur_s": 0.854,
+   "lufs_max": -16.3,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 3,
+    "recording": "recording 2 of 3"
+   }
+  },
+  {
+   "name": "cheer",
+   "file": "cheer.mp3",
+   "files": [
+    "cheer.mp3"
+   ],
+   "sound": "crowd/cheer",
+   "dur_s": 4.554,
+   "lufs_max": -14.7,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 3,
+    "of": 3,
+    "recording": "recording 3 of 3"
+   }
+  },
+  {
+   "name": "applause",
+   "file": "applause.mp3",
+   "files": [
+    "applause.mp3"
+   ],
+   "sound": "applause/audience",
+   "dur_s": 2.936,
+   "lufs_max": -14.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 3,
+    "recording": "recording 1 of 3"
+   }
+  },
+  {
+   "name": "boo",
+   "file": "boo.mp3",
+   "files": [
+    "boo.mp3"
+   ],
+   "sound": "crowd/boo",
+   "dur_s": 2.606,
+   "lufs_max": -14.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "scream",
+   "file": "scream.mp3",
+   "files": [
+    "scream.mp3"
+   ],
+   "sound": "scream/person",
+   "dur_s": 2.582,
+   "lufs_max": -14.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "burp",
+   "file": "burp.mp3",
+   "files": [
+    "burp.mp3"
+   ],
+   "sound": "burp/person",
+   "dur_s": 0.729,
+   "lufs_max": -16.5,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "sneeze",
+   "file": "sneeze.mp3",
+   "files": [
+    "sneeze.mp3"
+   ],
+   "sound": "sneeze/person",
+   "dur_s": 1.196,
+   "lufs_max": -20.6,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "quack",
+   "file": "quack.mp3",
+   "files": [
+    "quack.mp3"
+   ],
+   "sound": "duck/quack",
+   "dur_s": 0.423,
+   "lufs_max": -18.8,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "goat",
+   "file": "goat.mp3",
+   "files": [
+    "goat.mp3"
+   ],
+   "sound": "goat/bleat",
+   "dur_s": 0.992,
+   "lufs_max": -14.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "rooster",
+   "file": "rooster.mp3",
+   "files": [
+    "rooster.mp3"
+   ],
+   "sound": "rooster/crow",
+   "dur_s": 1.71,
+   "lufs_max": -14.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 2,
+    "recording": "recording 2 of 2"
+   }
+  },
+  {
+   "name": "moo",
+   "file": "moo.mp3",
+   "files": [
+    "moo.mp3"
+   ],
+   "sound": "cow/moo",
+   "dur_s": 2.753,
+   "lufs_max": -15.2,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 2,
+    "of": 3,
+    "recording": "recording 2 of 3"
+   }
+  },
+  {
+   "name": "parrot",
+   "file": "parrot.mp3",
+   "files": [
+    "parrot.mp3"
+   ],
+   "sound": "parrot/squawk",
+   "dur_s": 1.61,
+   "lufs_max": -16.3,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "boing_1",
+   "file": "boing_1.mp3",
+   "files": [
+    "boing_1.mp3"
+   ],
+   "sound": "jump/spring",
+   "dur_s": 0.708,
+   "lufs_max": -19.2,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "boing_2",
+   "file": "boing_2.mp3",
+   "files": [
+    "boing_2.mp3"
+   ],
+   "sound": "jump/spring",
+   "dur_s": 0.714,
+   "lufs_max": -19.1,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "tapestop",
+   "file": "tapestop.mp3",
+   "files": [
+    "tapestop.mp3"
+   ],
+   "sound": "stop/tape",
+   "dur_s": 1.342,
+   "lufs_max": -15.3,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "downlift",
+   "file": "downlift.mp3",
+   "files": [
+    "downlift.mp3"
+   ],
+   "sound": "downlifter/tape",
+   "dur_s": 1.566,
+   "lufs_max": -15.1,
+   "loop": false,
+   "ok": true
+  },
+  {
+   "name": "whistle",
+   "file": "whistle.mp3",
+   "files": [
+    "whistle.mp3"
+   ],
+   "sound": "whistle/person",
+   "dur_s": 1.03,
+   "lufs_max": -14.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 1,
+    "recording": "recording 1 of 1"
+   }
+  },
+  {
+   "name": "siren",
+   "file": "siren.mp3",
+   "files": [
+    "siren.mp3"
+   ],
+   "sound": "siren/pass",
+   "dur_s": 3.654,
+   "lufs_max": -14.0,
+   "loop": false,
+   "ok": true,
+   "member": {
+    "n": 1,
+    "of": 2,
+    "recording": "recording 1 of 2"
+   }
+  },
+  {
+   "name": "crackle",
+   "file": "crackle.flac",
+   "files": [
+    "crackle.flac"
+   ],
+   "sound": "crackle/vinyl",
+   "dur_s": 8.0,
+   "lufs_max": -30.0,
+   "loop": true,
+   "ok": true
+  },
+  {
+   "name": "lofi",
+   "file": "lofi.flac",
+   "files": [
+    "lofi.flac"
+   ],
+   "sound": "bed/warm",
+   "dur_s": 21.448,
+   "lufs_max": -24.0,
+   "loop": true,
+   "ok": true,
+   "pitch": "F3"
+  }
+ ]
+}

@@ -1,0 +1,416 @@
+{
+ "sounds": [
+  {
+   "name": "bowl_land",
+   "want": "a metal cooking pot knocked",
+   "sound": "pot/clang",
+   "n": 3
+  },
+  {
+   "name": "bowl_swoop",
+   "want": "a heavy deep whoosh",
+   "sound": "whoosh/heavy",
+   "n": 2
+  },
+  {
+   "name": "swish",
+   "want": "a fast swish of something thin",
+   "sound": "swish/fast",
+   "n": 4
+  },
+  {
+   "name": "egg_crack",
+   "want": "an egg cracked on the rim of a bowl",
+   "sound": "egg/crack",
+   "n": 8
+  },
+  {
+   "name": "plop",
+   "want": "something small plunging into water",
+   "sound": "splash/plunge",
+   "n": 4
+  },
+  {
+   "name": "shell",
+   "recipe": {
+    "name": "shell",
+    "says": "a light eggshell landing on a stone counter",
+    "layers": [
+     {
+      "sound": "plate/ceramic",
+      "pitch": 8,
+      "gain": 0,
+      "decay": 0.12
+     }
+    ]
+   }
+  },
+  {
+   "name": "whisk",
+   "want": "a whisk beating eggs in a bowl",
+   "sound": "whisk/beat",
+   "n": 2
+  },
+  {
+   "name": "ceramic_set",
+   "want": "a plate set down on a table",
+   "sound": "plate/set",
+   "n": 2
+  },
+  {
+   "name": "pour_thick",
+   "recipe": {
+    "name": "pour_thick",
+    "says": "thick melted chocolate poured into a bowl",
+    "layers": [
+     {
+      "sound": "drink/pour",
+      "pitch": -8,
+      "lowpass": 1600,
+      "gain": 0
+     },
+     {
+      "sound": "step/mud",
+      "at": 0.3,
+      "pitch": -3,
+      "gain": -10
+     }
+    ]
+   }
+  },
+  {
+   "name": "pan_set",
+   "recipe": {
+    "name": "pan_set",
+    "says": "a metal loaf tin set down on a counter",
+    "layers": [
+     {
+      "sound": "pot/clang",
+      "pitch": -4,
+      "gain": 0,
+      "decay": 0.5
+     },
+     {
+      "sound": "hit/drop",
+      "gain": -8
+     }
+    ]
+   }
+  },
+  {
+   "name": "sprinkles",
+   "want": "soft rain falling on leaves, 2 seconds, no loop",
+   "sound": "rain/leaves",
+   "dur": 2.2
+  },
+  {
+   "name": "oven_open",
+   "recipe": {
+    "name": "oven_open",
+    "says": "a heavy oven door opened",
+    "layers": [
+     {
+      "sound": "microwave/open",
+      "pitch": -5,
+      "gain": 0
+     }
+    ]
+   }
+  },
+  {
+   "name": "oven_close",
+   "recipe": {
+    "name": "oven_close",
+    "says": "a heavy oven door shut",
+    "layers": [
+     {
+      "sound": "microwave/close",
+      "pitch": -5,
+      "gain": 0
+     },
+     {
+      "sound": "thump/door",
+      "gain": -8
+     }
+    ]
+   }
+  },
+  {
+   "name": "oven_hum",
+   "want": "a microwave oven running",
+   "sound": "microwave/run",
+   "dur": 6,
+   "loop": true
+  },
+  {
+   "name": "oven_click",
+   "want": "the switch of an electric heater flipped",
+   "sound": "switch/heater"
+  },
+  {
+   "name": "knife_saw",
+   "want": "a knife slicing through something",
+   "sound": "knife/slice",
+   "n": 4
+  },
+  {
+   "name": "knife_through",
+   "want": "a sword cutting into something soft",
+   "sound": "sword/cut"
+  },
+  {
+   "name": "tear",
+   "recipe": {
+    "name": "tear",
+    "says": "a soft chocolate cake torn apart, gooey",
+    "layers": [
+     {
+      "sound": "cloth/tear",
+      "pitch": -6,
+      "lowpass": 2800,
+      "gain": 0
+     },
+     {
+      "sound": "step/mud",
+      "at": 0.25,
+      "gain": -6
+     }
+    ]
+   }
+  },
+  {
+   "name": "squelch",
+   "want": "a footstep in thick wet mud",
+   "sound": "step/mud",
+   "n": 3
+  },
+  {
+   "name": "glitch",
+   "want": "a short digital stutter",
+   "sound": "glitch/short",
+   "n": 4
+  },
+  {
+   "name": "ba",
+   "want": "a soft pop made with the lips",
+   "sound": "pop/mouth",
+   "n": 6
+  },
+  {
+   "name": "logo",
+   "want": "a heavy bag dropped, low and short",
+   "sound": "logo/bag"
+  },
+  {
+   "name": "tick",
+   "want": "the bright top of a mechanical key pressed",
+   "sound": "tick/key",
+   "n": 2
+  },
+  {
+   "name": "rise",
+   "want": "a reversed whoosh swelling up to an abrupt stop",
+   "sound": "rise/reverse"
+  },
+  {
+   "name": "pipe",
+   "want": "a steel bar falling on the ground",
+   "sound": "metal/drop",
+   "n": 2
+  },
+  {
+   "name": "boom",
+   "recipe": {
+    "name": "boom",
+    "says": "a huge bass boosted boom",
+    "layers": [
+     {
+      "sound": "boom/wide",
+      "cut": [
+       0,
+       2.2
+      ],
+      "gain": 0,
+      "fade_out": 0.6
+     },
+     {
+      "sound": "hit/crit",
+      "gain": -4
+     },
+     {
+      "source": "sine",
+      "hz": 45,
+      "dur": 1.4,
+      "gain": -6,
+      "decay": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "name": "err_buzz",
+   "want": "a short low double buzz",
+   "sound": "ui/error_buzz",
+   "n": 2
+  },
+  {
+   "name": "err_deny",
+   "want": "a machine buzzer refusing",
+   "sound": "buzzer/deny",
+   "n": 2
+  },
+  {
+   "name": "err_fall",
+   "want": "two low notes falling, a negative tone",
+   "sound": "error/fall"
+  },
+  {
+   "name": "alarm8",
+   "want": "an 8-bit alarm",
+   "sound": "alarm/chip"
+  },
+  {
+   "name": "scratch",
+   "want": "a record scratch",
+   "sound": "record/scratch",
+   "n": 3
+  },
+  {
+   "name": "horn",
+   "recipe": {
+    "name": "horn",
+    "says": "a short loud horn blast",
+    "layers": [
+     {
+      "sound": "train/horn",
+      "cut": [
+       0.15,
+       0.75
+      ],
+      "pitch": 4,
+      "gain": 0,
+      "fade_out": 0.08
+     },
+     {
+      "sound": "car_horn/honk",
+      "gain": -6
+     }
+    ]
+   }
+  },
+  {
+   "name": "laugh",
+   "want": "a small group of people laughing together",
+   "sound": "laugh/crowd",
+   "n": 2
+  },
+  {
+   "name": "laugh1",
+   "want": "a person laughing",
+   "sound": "laugh/person"
+  },
+  {
+   "name": "gasp",
+   "want": "a sharp gasp of surprise",
+   "sound": "gasp/breath",
+   "n": 2
+  },
+  {
+   "name": "cheer",
+   "want": "a crowd cheering and whooping",
+   "sound": "crowd/cheer"
+  },
+  {
+   "name": "applause",
+   "want": "a small audience applauding",
+   "sound": "applause/audience"
+  },
+  {
+   "name": "boo",
+   "want": "a crowd booing",
+   "sound": "crowd/boo",
+   "dur": 2.5
+  },
+  {
+   "name": "scream",
+   "want": "a long loud scream",
+   "sound": "scream/person"
+  },
+  {
+   "name": "burp",
+   "want": "a person burping",
+   "sound": "burp/person"
+  },
+  {
+   "name": "sneeze",
+   "want": "a person sneezing",
+   "sound": "sneeze/person"
+  },
+  {
+   "name": "quack",
+   "want": "a duck quacking",
+   "sound": "duck/quack"
+  },
+  {
+   "name": "goat",
+   "want": "a goat bleating",
+   "sound": "goat/bleat"
+  },
+  {
+   "name": "rooster",
+   "want": "a rooster crowing",
+   "sound": "rooster/crow"
+  },
+  {
+   "name": "moo",
+   "want": "a cow mooing",
+   "sound": "cow/moo"
+  },
+  {
+   "name": "parrot",
+   "want": "a parrot squawking",
+   "sound": "parrot/squawk",
+   "dur": 1.4
+  },
+  {
+   "name": "boing",
+   "want": "a springy boing",
+   "sound": "jump/spring",
+   "n": 2
+  },
+  {
+   "name": "tapestop",
+   "want": "a drum roll and low brass slowing down to a halt",
+   "sound": "stop/tape"
+  },
+  {
+   "name": "downlift",
+   "want": "a downlifter, a sinking filtered sweep",
+   "sound": "downlifter/tape"
+  },
+  {
+   "name": "whistle",
+   "want": "a person whistling with two fingers",
+   "sound": "whistle/person"
+  },
+  {
+   "name": "siren",
+   "want": "a two-tone emergency siren",
+   "sound": "siren/pass",
+   "dur": 2.5
+  },
+  {
+   "name": "crackle",
+   "want": "vinyl record crackle, seamless loop",
+   "sound": "crackle/vinyl",
+   "dur": 8,
+   "loop": true
+  },
+  {
+   "name": "lofi",
+   "want": "slow warm electric piano chords, loop",
+   "sound": "bed/warm",
+   "loop": true
+  }
+ ]
+}

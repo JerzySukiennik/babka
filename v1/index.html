@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>babka.mp4</title>
+<meta name="theme-color" content="#000">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 fill=%22%23000%22/%3E%3Ctext x=%2216%22 y=%2223%22 font-size=%2220%22 text-anchor=%22middle%22 fill=%22%23fff%22 font-family=%22sans-serif%22 font-weight=%22800%22%3Eb%3C/text%3E%3C/svg%3E">
+<style>
+  :root { --mono: ui-monospace, "SF Mono", Menlo, monospace; --sans: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 100%; height: 100%; overflow: hidden; background: #000; touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+  body { cursor: none; font-family: var(--sans); }
+  canvas#gl { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+  canvas#trail, canvas#pop { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+  .hud { position: fixed; inset: 0; pointer-events: none; color: #fff; mix-blend-mode: difference; }
+  .tl { position: absolute; left: 22px; top: 18px; font: 500 12px/1.35 var(--mono); letter-spacing: .02em; }
+  .tl b { display: block; font: 600 15px/1.2 var(--sans); letter-spacing: -.01em; margin-bottom: 2px; }
+  .tr { position: absolute; right: 18px; top: 14px; pointer-events: auto; }
+  .tr button { all: unset; cursor: none; width: 34px; height: 34px; display: grid; place-items: center; }
+  .tr svg { width: 20px; height: 20px; stroke: #fff; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+  .tr .off .wave { display: none; } .tr .x { display: none; } .tr .off .x { display: inline; }
+  .bottom { position: absolute; left: 0; right: 0; bottom: max(18px, env(safe-area-inset-bottom)); display: flex; flex-direction: column; align-items: center; gap: 12px; }
+  .hint { font: 600 17px/1.2 var(--sans); letter-spacing: -.01em; text-align: center; min-height: 21px; transition: opacity .35s, transform .5s cubic-bezier(.2,.8,.2,1), filter .5s; }
+  .hint.out { opacity: 0; transform: translateY(8px); filter: blur(6px); }
+  .bar { display: flex; gap: 4px; width: min(520px, 80vw); }
+  .bar i { flex: 1; height: 3px; background: rgba(255,255,255,.28); position: relative; overflow: hidden; }
+  .bar i::after { content: ""; position: absolute; inset: 0; background: #fff; transform-origin: left; transform: scaleX(var(--p, 0)); }
+  .tc { font: 500 11px/1 var(--mono); opacity: .8; }
+  #cur { position: fixed; left: 0; top: 0; width: 44px; height: 44px; margin: -22px 0 0 -22px; pointer-events: none; mix-blend-mode: difference; will-change: transform; }
+  #cur circle { fill: none; stroke: #fff; }
+  #cur .dot { fill: #fff; stroke: none; }
+  #cur .ring { stroke-width: 2; stroke-dasharray: 113.1; stroke-dashoffset: 113.1; transform: rotate(-90deg); transform-origin: 22px 22px; transition: stroke-dashoffset .12s linear; }
+  @media (hover: none) { #cur { display: none; } }
+  #fatal { position: fixed; inset: 0; display: none; place-items: center; color: #fff; font: 15px/1.5 var(--mono); padding: 30px; text-align: center; background: #000; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<canvas id="gl"></canvas>
+<canvas id="trail"></canvas>
+<canvas id="pop"></canvas>
+<div class="hud">
+  <div class="tl"><b>babka.mp4</b><span id="tc">00:00:00:00</span> &nbsp;<span id="fr">I-frame</span></div>
+  <div class="tr"><button id="snd" aria-label="dźwięk"><svg viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="wave" d="M15.5 9a4.2 4.2 0 0 1 0 6M18 6.5a7.8 7.8 0 0 1 0 11"/><path class="x" d="M16 9.5l5 5M21 9.5l-5 5"/></svg></button></div>
+  <div class="bottom">
+    <div class="hint" id="hint">ładowanie</div>
+    <div class="bar" id="bar"></div>
+    <div class="tc" id="ch">00 / 08</div>
+  </div>
+</div>
+<svg id="cur" viewBox="0 0 44 44"><circle cx="22" cy="22" r="18" stroke-width="1" opacity=".55"/><circle class="ring" cx="22" cy="22" r="18"/><circle class="dot" cx="22" cy="22" r="2.4"/></svg>
+<div id="fatal"></div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
